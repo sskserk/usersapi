@@ -1,0 +1,11 @@
+---
+applications:
+  - name: usersapi
+    buildpack: java-buildpack
+    path: target/usersapi-0.1.0.jar
+    memory: 256M
+#    timeout : 180
+#env:
+#   SPRING_PROFILES_ACTIVE : cloud
+#   MEMORY_LIMIT: 358M
+#   JAVA_DOCS_URL : https://predixdev.github.io/predix-microservice-cf-spring
